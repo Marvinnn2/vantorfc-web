@@ -1,300 +1,190 @@
-!DOCTYPE html
-html lang=es
-head
-meta charset=UTF-8
-meta name=viewport content=width=device-width, initial-scale=1.0
-
-titleVantor FC  Club de Fútbol de La Lima, Hondurastitle
-
-meta name=description content=Sitio web oficial de Vantor FC, club de fútbol de La Lima, Cortés, Honduras. Formación deportiva, noticias, equipos y contacto.
-
-meta name=keywords content=Vantor FC, fútbol, Honduras, La Lima, club deportivo
-
-meta property=ogtitle content=Vantor FC
-meta property=ogdescription content=Club de Fútbol de La Lima, Honduras
-meta property=ogtype content=website
-
-style
-
-{
-margin0;
-padding0;
-box-sizingborder-box;
-font-familyArial,sans-serif;
-}
-
-body{
-background#f5f5f5;
-color#222;
-}
-
-header{
-background#0b4ea2;
-colorwhite;
-padding20px;
-positionsticky;
-top0;
-}
-
-nav{
-displayflex;
-justify-contentspace-between;
-align-itemscenter;
-}
-
-nav ul{
-displayflex;
-gap20px;
-list-stylenone;
-}
-
-nav a{
-colorwhite;
-text-decorationnone;
-font-weightbold;
-}
-
-.hero{
-height80vh;
-backgroundlinear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-url(httpsimages.unsplash.comphoto-1517466787929-bc90951d0974auto=format&fit=crop&w=1600&q=80);
-background-sizecover;
-background-positioncenter;
-displayflex;
-justify-contentcenter;
-align-itemscenter;
-text-aligncenter;
-colorwhite;
-padding20px;
-}
-
-.hero h1{
-font-size60px;
-margin-bottom20px;
-}
-
-.hero p{
-font-size22px;
-margin-bottom30px;
-}
-
-.btn{
-background#ffc107;
-padding15px 35px;
-border-radius40px;
-color#222;
-font-weightbold;
-text-decorationnone;
-}
-
-section{
-padding70px 10%;
-}
-
-h2{
-margin-bottom20px;
-color#0b4ea2;
-}
-
-.cards{
-displaygrid;
-grid-template-columnsrepeat(auto-fit,minmax(250px,1fr));
-gap20px;
-}
+<!DOCTYPE html>
+<html lang="es">
 
-.card{
-backgroundwhite;
-padding25px;
-border-radius15px;
-box-shadow0 5px 20px rgba(0,0,0,.1);
-}
+<head>
 
-.gallery{
-displaygrid;
-grid-template-columnsrepeat(auto-fit,minmax(280px,1fr));
-gap20px;
-}
+<meta charset="UTF-8">
 
-.gallery img{
-width100%;
-border-radius10px;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-footer{
-background#0b4ea2;
-colorwhite;
-padding30px;
-text-aligncenter;
-}
+<title>Vantor FC | Club Oficial</title>
 
-style
+<meta name="description" content="Sitio oficial de Vantor FC, club de fútbol de La Lima, Cortés, Honduras.">
 
-script type=applicationld+json
-{
-@contexthttpsschema.org,
-@typeSportsOrganization,
-nameVantor FC,
-sportFootball,
-address{
-@typePostalAddress,
-addressLocalityLa Lima,
-addressRegionCortés,
-addressCountryHN
-},
-urlhttpsvantorfc.com
-}
-script
+<meta name="keywords" content="Vantor FC,Honduras,Fútbol,La Lima">
 
-head
+<link rel="stylesheet" href="css/style.css">
 
-body
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-header
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-nav
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-h2⚽ Vantor FCh2
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 
-ul
-lia href=#historiaHistoriaali
-lia href=#equiposEquiposali
-lia href=#galeriaGaleríaali
-lia href=#contactoContactoali
-ul
+</head>
 
-nav
+<body>
 
-header
+<header>
 
-section class=hero
+<nav class="navbar">
 
-div
+<div class="logo">
 
-h1VANTOR FCh1
+<img src="images/logo.png" alt="Vantor FC">
 
-pPasión • Disciplina • Futurop
+<span>VANTOR FC</span>
 
-a href=#contacto class=btn
-Únete al Club
-a
+</div>
 
-div
+<ul>
 
-section
+<li><a href="#inicio">Inicio</a></li>
 
-section id=historia
+<li><a href="#club">Club</a></li>
 
-h2Historiah2
+<li><a href="#jugadores">Jugadores</a></li>
 
-p
+<li><a href="#partidos">Partidos</a></li>
 
-Vantor FC es un club de fútbol ubicado en La Lima, Cortés, Honduras.
-Nuestro objetivo es formar jóvenes talentos, promover los valores del deporte y competir con excelencia dentro y fuera del campo.
+<li><a href="#galeria">Galería</a></li>
 
-p
+<li><a href="#contacto">Contacto</a></li>
 
-section
+</ul>
 
-section id=equipos
+</nav>
 
-h2Nuestros Equiposh2
+</header>
 
-div class=cards
+<section class="hero" id="inicio">
 
-div class=card
-h3Academiah3
-pFormación desde edades tempranas.p
-div
+<div class="hero-content">
 
-div class=card
-h3Juvenilh3
-pDesarrollo competitivo.p
-div
+<h1>VANTOR FC</h1>
 
-div class=card
-h3Mayorh3
-pRepresentación oficial del club.p
-div
+<p>
 
-div
+Orgullo de La Lima, Cortés, Honduras
 
-section
+</p>
 
-section id=galeria
+<a href="#club" class="btn">
 
-h2Galeríah2
+Conoce el Club
 
-div class=gallery
+</a>
 
-img src=httpsimages.unsplash.comphoto-1518091043644-c1d4457512c6auto=format&fit=crop&w=800&q=80
+</div>
 
-img src=httpsimages.unsplash.comphoto-1547347298-4074fc3086f0auto=format&fit=crop&w=800&q=80
+</section>
 
-img src=httpsimages.unsplash.comphoto-1508098682722-e99c643e7485auto=format&fit=crop&w=800&q=80
+<section class="about" id="club">
 
-div
+<div class="container">
 
-section
+<h2>Sobre Nosotros</h2>
 
-section
+<p>
 
-h2Misiónh2
+Vantor FC es un club dedicado al desarrollo del fútbol y a la formación integral de jóvenes talentos.
 
-p
+Nuestro objetivo es representar con orgullo a La Lima y convertirnos en uno de los clubes referentes de Honduras.
 
-Desarrollar jugadores con excelencia deportiva, disciplina y valores que representen con orgullo a Vantor FC y a La Lima.
+</p>
 
-p
+<div class="cards">
 
-section
+<div class="card">
 
-section
+<i class="fa-solid fa-futbol"></i>
 
-h2Visiónh2
+<h3>Disciplina</h3>
 
-p
+<p>
 
-Ser uno de los clubes de referencia en Honduras por su formación de talento, competitividad e impacto positivo en la comunidad.
+Formamos jugadores con valores.
 
-p
+</p>
 
-section
+</div>
 
-section id=contacto
+<div class="card">
 
-h2Contactoh2
+<i class="fa-solid fa-trophy"></i>
 
-p
+<h3>Competencia</h3>
 
-📍 La Lima, Cortés, Honduras
+<p>
 
-p
+Buscamos la excelencia deportiva.
 
-p
+</p>
 
-📱 WhatsApp +504 3244-6884
+</div>
 
-p
+<div class="card">
 
-p
+<i class="fa-solid fa-users"></i>
 
-📧 contacto vantorfc@gmail.com
+<h3>Familia</h3>
 
-p
+<p>
 
-section
+Somos una comunidad unida.
 
-footer
+</p>
 
-h3Vantor FCh3
+</div>
 
-p
+</div>
 
-© 2026 Todos los derechos reservados.
+</div>
 
-p
+</section>
 
-footer
+<section id="jugadores">
 
-body
-html
+<div class="container">
+
+<h2>Jugadores Destacados</h2>
+
+<div class="players">
+
+<div class="player">
+
+<img src="images/players/player1.jpg">
+
+<h3>Nombre Jugador</h3>
+
+<p>Delantero</p>
+
+</div>
+
+<div class="player">
+
+<img src="images/players/player2.jpg">
+
+<h3>Nombre Jugador</h3>
+
+<p>Defensa</p>
+
+</div>
+
+<div class="player">
+
+<img src="images/players/player3.jpg">
+
+<h3>Nombre Jugador</h3>
+
+<p>Portero</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
